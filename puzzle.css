@@ -1,0 +1,62 @@
+body {
+    background: #f5f5f4;
+    color: #232323;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 25px 50px;
+    margin: 0;
+  }
+  
+  code {
+    color: #09507c;
+    background: #deedf2;
+    padding: 2px 10px;
+    border-radius: 10px;
+  }
+  
+  td {
+    border: 1px solid black;
+    padding: 15px;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    border-color: #09507c;
+    background-color: #deedf2;
+  }
+  
+  #puzzle {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 800px;
+    height: 800px;
+ }
+
+.container{
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 820px;
+    height: 820px;
+    /* padding: 1rem; */
+
+}
+
+.draggable{
+    background-color: white;
+    /* border: 1px solid black; */
+    cursor: move;
+}
+
+.draggable.dragging{
+    opacity: 0.5;
+}
